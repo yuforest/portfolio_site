@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Yuta Omori - Portfolio Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Khula|Poiret+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <!-- <audio id="msc" src="audio.mp3" autoplay loop></audio> -->
+
+    <canvas id="canvas" width="1200" height="700"></canvas>
+    <header>
+      <div class="navToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+        <div class="headernav">
+          <div class="clearfix navigation">
+
+              <nav class="globalNavi">
+                  <ul>
+                    <li><a href="#"><i class="fas fa-home"></i>HOME</a></li>
+                    <li><a href="#about"><i class="fas fa-question"></i>  ABOUT</a></li>
+                    <li><a href="#skill"><i class="fas fa-chart-bar"></i>  SKILL</a></li>
+                    <li><a href="#portfolio"><i class="fas fa-folder"></i>PORTFOLIO</a></li>
+                    <li><a href="#price"><i class="fas fa-yen-sign"></i>PRICE</a></li>
+                    <li><a href="#contact"><i class="far fa-envelope"></i>  CONTACT</a></li>
+                  </ul>
+              </nav>
+          </div>
+        </div>
+        <h1 class="header-name"></h1>
+        <p class="header-lead"></p>
+    </header>
+
+    <section id="about" class="box">
+        <h2>ABOUT</h2>
+          <div class="container">
+            <div class="profile-group">
+              <div class="slideEffect animation-normal">
+                <img src="images/profile.png" alt="">
+                <p class="profile-name">Yuta Omori</p>
+                <div class="profile">
+                  <p>東京在住のWebエンジニアです。慶應義塾大学卒業後Webとはあまり関係ののない企業に就職するも、Webの仕事がしたいと思い退職。<br><br>現在はHTML&CSSを用いたコーディングやRuby on Railを用いたアプリケーションの開発をしています。またPHPやWordpressを用いたサイトの制作やPhotoshop、Illustrator、Xdを用いたデザイン、Pythonでのデータ分析にも興味があります。<br>趣味は登山やキャンプなどのアウトドアアクティビティです。</p>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skill">
+      <h2>SKILL</h2>
+      <div class="container skills">
+        <div class="row">
+          <div class="col-sm-6 devider">
+            <h3 class="front-end-head text-center">Frontend</h3>
+            <div class="row skill">
+              <div class="col-sm-4 skill-name">HTML/CSS</div>
+              <div class="col-sm-8">
+                <div class="progress">
+                  <div class="progress-bar bg-pink effect" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70</div>
+                </div>
+              </div>
+            </div>
+            <div class="row skill">
+              <div class="col-sm-4 skill-name">Javescript/Jquery</div>
+              <div class="col-sm-8">
+                <div class="progress">
+                  <div class="progress-bar bg-pink effect" role="progressbar" style="width: 60%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">60</div>
+                </div>
+              </div>
+            </div>
+            <div class="row skill">
+              <div class="col-sm-4 skill-name">Bootstrap</div>
+              <div class="col-sm-8">
+                <div class="progress">
+                  <div class="progress-bar bg-pink effect" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70</div>
+                </div>
+              </div>
+            </div>
+            <div class="row skill">
+              <div class="col-sm-4 skill-name">Illustrator/Photoshop</div>
+              <div class="col-sm-8">
+                <div class="progress">
+                  <div class="progress-bar bg-pink effect" role="progressbar" style="width: 30%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">30</div>
+                </div>
+              </div>
+            </div><!-- small row end -->
+          </div><!-- col-sm-6 end -->
+
+          <div class="col-sm-6">
+            <h3 class="back-end-head text-center">Backend</h3>
+            <div class="row skill">
+              <div class="col-sm-4 skill-name">PHP</div>
+              <div class="col-sm-8">
+                <div class="progress">
+                  <div class="progress-bar bg-pink effect" role="progressbar" style="width: 70%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50</div>
+                </div>
+              </div>
+            </div><!-- small row end -->
+
+            <div class="row skill">
+              <div class="col-sm-4 skill-name">Wordpress</div>
+              <div class="col-sm-8">
+                <div class="progress">
+                  <div class="progress-bar bg-pink effect" role="progressbar" style="width: 50%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">50</div>
+                </div>
+              </div>
+            </div><!-- small row end -->
+
+            <div class="row skill">
+              <div class="col-sm-4 skill-name">Ruby</div>
+              <div class="col-sm-8">
+                <div class="progress">
+                  <div class="progress-bar bg-pink effect" role="progressbar" style="width: 60%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70</div>
+                </div>
+              </div>
+            </div><!-- small row end -->
+
+            <div class="row skill">
+              <div class="col-sm-4 skill-name">Ruby on Rails</div>
+              <div class="col-sm-8">
+                <div class="progress">
+                  <div class="progress-bar bg-pink effect" role="progressbar" style="width: 60%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70</div>
+                </div>
+              </div>
+            </div><!-- small row end -->
+
+            <div class="row skill">
+              <div class="col-sm-4 skill-name">Python</div>
+              <div class="col-sm-8">
+                <div class="progress">
+                  <div class="progress-bar bg-pink effect" role="progressbar" style="width: 30%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">30</div>
+                </div>
+              </div>
+            </div><!-- small row end -->
+          </div><!-- col-sm-6 end -->
+        </div><!-- big row end -->
+      </div><!-- container end -->
+    </section>
+
+    <section id="portfolio">
+      <h2>PORTFOLIO</h2>
+      <div class="container portfolio-container">
+        <div class="row portfolio-row">
+
+          <div class="col-sm-6 portfolio portfolio-1 col-xs-12">
+
+            <div class="portfolio-wrapper">
+              <h3 class="portfolio-title text-center mt-5">
+                Dream Realizer
+              </h3>
+              <div class="portfolio-caption mt-3 text-center">
+                <p>目標管理ツールです。大きな目標を分割し、小さな目標を達成していくことで夢の実現に繋がります。</p>
+              </div>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary mx-auto d-block" data-toggle="modal" data-target="#portfolio-1-modal">
+                詳しく見る
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="portfolio-1-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">詳細</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h5>名前</h5>
+                      <p>Dream Realizer</p>
+                      <hr>
+
+                      <h5>種別</h5>
+                      <p>自作アプリ</p>
+                      <hr>
+
+                      <h5>説明</h5>
+                      <p>目標管理ツールです。大きな目標を分割し、小さな目標を達成していくことで夢の実現に繋がります。</p>
+                      <hr>
+
+                      <h5>画像</h5>
+                      <img src="images/dream-realizer.png" alt="" width="200"  >
+                      <img src="images/header.jpg" alt="" width="200" >
+
+                      <hr>
+                      <h5>使っている技術など</h5>
+                      <p>HTML/CSS, Jquery, Ruby, Ruby on Rails, Git, Heroku</p>
+                      <hr>
+                      <h5>URL</h5>
+
+                      <p><a href="https://github.com/yuforest/dream-realizer">Github</a></p>
+                      <p><a href="https://secure-lake-26077.herokuapp.com/">Heroku</a></p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">閉じる</button>
+                    </div>
+                  </div><!-- modal content end -->
+                </div><!-- modal dialog end -->
+              </div><!-- modal end -->
+            </div>
+          </div><!-- portfolio-1 end -->
+
+          <div class="col-sm-6 portfolio portfolio-2 bg-secondary col-xs-12">
+            <h3 class="portfolio-title text-center mt-5">
+              Four Personalities
+            </h3>
+            <div class="portfolio-caption mt-3 text-center">
+              <p>20の質問からあなたの性格を4つに分類します。電車の空き時間で簡単に診断が行えます。</p>
+            </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary mx-auto d-block" data-toggle="modal" data-target="#portfolio-2-modal">
+              詳しく見る
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="portfolio-2-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">詳細</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <h5>名前</h5>
+                    <p>Four personalities</p>
+                    <hr>
+
+                    <h5>種別</h5>
+                    <p>自作アプリ</p>
+                    <hr>
+
+                    <h5>説明</h5>
+                    <p>20の質問からあなたの性格を4つに分類します。電車の空き時間で簡単に診断が行えます。</p>
+                    <hr>
+                    <h5>画像</h5>
+                    <img src="images/header.jpg" alt="" width="200" height="200">
+                    <img src="images/header.jpg" alt="" width="200" height="200">
+
+                    <hr>
+                    <h5>使っている技術など</h5>
+                    <p>HTML/CSS, Ruby, Ruby on Rails, Git, Heroku</p>
+                    <hr>
+                    <h5>URL</h5>
+
+                    <p><a href="https://github.com/yuforest/four_personalities">Github</a></p>
+                    <p><a href="https://radiant-temple-26376.herokuapp.com/">Heroku</a></p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">閉じる</button>
+                  </div>
+                </div><!-- modal content end -->
+              </div><!-- modal dialog end -->
+            </div><!-- modal end -->
+
+          </div><!-- portfolio-2 end -->
+
+        </div>
+
+        <div class="row mt-5 middle-row portfolio-row">
+          <div class="col-sm-6 portfolio portfolio-3 bg-info col-xs-12">
+            <h3 class="portfolio-title text-center mt-5">
+              Coming soon...
+            </h3>
+            <div class="portfolio-caption mt-3 text-center">
+
+            </div>
+            <!-- Button trigger modal -->
+            <!-- <button type="button" class="btn btn-primary mx-auto d-block" data-toggle="modal" data-target="#portfolio-3-modal">
+              詳しく見る
+            </button> -->
+
+            <!-- Modal -->
+            <div class="modal fade" id="portfolio-3-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Modal body text goes here.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">閉じる</button>
+                  </div>
+                </div><!-- modal content end -->
+              </div><!-- modal dialog end -->
+            </div><!-- modal end -->
+
+          </div><!-- portfolio-3 end -->
+
+          <div class="col-sm-6 portfolio portfolio-4 bg-info col-xs-12">
+            <h3 class="portfolio-title text-center mt-5">
+              Coming soon...
+            </h3>
+
+            <!-- Button trigger modal -->
+            <!-- <button type="button" class="btn btn-primary mx-auto d-block" data-toggle="modal" data-target="#portfolio-4-modal">
+              詳しく見る
+            </button> -->
+
+            <!-- Modal -->
+            <div class="modal fade" id="portfolio-4-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Modal body text goes here.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">閉じる</button>
+                  </div>
+                </div><!-- modal content end -->
+              </div><!-- modal dialog end -->
+            </div><!-- modal end -->
+
+          </div><!-- portfolio-4 end -->
+
+        </div>
+        <div class="row mt-5 last-row portfolio-row">
+          <div class="col-sm-6 portfolio portfolio-5 bg-info col-xs-12">
+            <h3 class="portfolio-title text-center mt-5">
+              Coming soon...
+            </h3>
+
+            <!-- Button trigger modal -->
+            <!-- <button type="button" class="btn btn-primary mx-auto d-block" data-toggle="modal" data-target="#portfolio-5-modal">
+              詳しく見る
+            </button> -->
+
+            <!-- Modal -->
+            <div class="modal fade" id="portfolio-5-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Modal body text goes here.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">閉じる</button>
+                  </div>
+                </div><!-- modal content end -->
+              </div><!-- modal dialog end -->
+            </div><!-- modal end -->
+
+          </div><!-- portfolio-5 end -->
+
+          <div class="col-sm-6 portfolio portfolio-4 bg-info col-xs-12">
+            <h3 class="portfolio-title text-center mt-5">
+              Coming soon...
+            </h3>
+
+            <!-- Button trigger modal -->
+            <!-- <button type="button" class="btn btn-primary text-white mx-auto d-block" data-toggle="modal" data-target="#portfolio-6-modal">
+              詳しく見る
+            </button> -->
+
+            <!-- Modal -->
+            <div class="modal fade" id="portfolio-6-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Modal body text goes here.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">閉じる</button>
+                  </div>
+                </div><!-- modal content end -->
+              </div><!-- modal dialog end -->
+            </div><!-- modal end -->
+
+          </div><!-- portfolio-6 end -->
+
+        </div>
+      </div>
+      <!-- <div class="text-center pb-5">
+        <a href="" class="btn more-button bg-pink btn-lg ">MORE  <i class="far fa-file"></i></a>
+      </div> -->
+
+    </section>
+
+    <section id="price">
+      <h2>PRICE</h2>
+      <div class="container pb-5">
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">工程</th>
+              <th scope="col">金額</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">トップページ(HTML&CSS)</th>
+              <td>¥30,000~</td>
+
+            </tr>
+            <tr>
+              <th scope="row">下層ページ(1ページあたり)</th>
+              <td>¥10,000~</td>
+            </tr>
+            <tr>
+              <th scope="row">Wordpress環境構築&amp;テーマ導入</th>
+              <td>¥30,000~</td>
+            </tr>
+
+            <!-- <tr>
+              <th scope="row">Wordpressテーマカスタマイズ</th>
+              <td>¥50,000~</td>
+            </tr> -->
+
+            <!-- <tr>
+              <th scope="row">サイトデザイン(Adobe Photoshop, Adobe Xd)</th>
+              <td>¥20,000~</td>
+            </tr> -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container pb-5">
+        <h2>CONTACT</h2>
+        <p class="text-center">ご連絡は下記のコンタクトフォームかメールアドレスにお願い致します。</p>
+
+        <h3 class="text-center mt-5">コンタクトフォーム</h3>
+        <form class="contact-form" action="mail.php" method="post">
+          <div class="form-group">
+            <label for="InputEmail">お名前</label>
+            <input type="text" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Name" name="name">
+            <small id="emailHelp" class="form-text text-muted">ご記入いただいた個人情報は、お問い合わせへの回答、情報提供のために使用させていただきます。</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">ご連絡するメールアドレス</label>
+            <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Password" name="email">
+          </div>
+
+          <div class="form-group">
+            <label for="InputContent">お問い合わせ内容</label>
+            <textarea name="" id="InputContent" cols="30" rows="10" class="form-control" placeholder="お問い合わせ内容を入力してください" name="content"></textarea>
+
+          <button type="submit" class="contact-submit btn bg-pink text-white d-block mx-auto my-3" value="post">送信</button>
+        </form>
+
+
+
+        <h3 class="text-center mt-5">メールアドレス</h3>
+        <p class="mail-address text-center">
+          lostforest0@gmail.com
+        </p>
+      </div>
+    </section>
+    <footer>
+      <p class="coryright">&copy; 2018 Yuta Omori All Right Reserved.</p>
+    </footer>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
